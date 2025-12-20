@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-## About Me
 Hello, again. I am from Azerbaijan, graduated from ADA school and also was volunteering during my school days. I am curious of multiple things and I wonder how I can progress in technical development, thus I became IT student.
 
 ## Education
