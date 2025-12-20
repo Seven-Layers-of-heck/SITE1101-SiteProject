@@ -18,19 +18,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Mustafa Jan Yeshil
-email: your-email@example.com
+title: "SITE Project 3"
+email: ""
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website of Mustafa Jan Yeshil - ADA University IT Student passionate about networking and operating systems.
 baseurl: /SITE1101-SiteProject # the subpath of your site, e.g. /blog
 url: https://uselesssamaritan.github.io # the base hostname & protocol for your site, e.g. http://example.com
-reddit_username:  u/Iwant_to_sleep
-github_username:  UselessSamaritan
+github_username: Seven-Layers-of-heck
+
+# Custom social links
+social_links:
+  - { platform: github, user_url: "https://github.com/Seven-Layers-of-heck" }
+  - { platform: codecademy, user_url: "https://www.codecademy.com/profiles/Someones_Spoken4Me" }
+  - { platform: repository, user_url: "https://github.com/Seven-Layers-of-heck/SITE1101-SiteProject" }
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
