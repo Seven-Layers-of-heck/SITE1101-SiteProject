@@ -812,14 +812,30 @@ blockquote {
 /* Responsive footer for narrow screens */
 @media screen and (max-width: 600px) {
   .social-media-list {
-    gap: 20px;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
   }
   .social-media-list a {
-    gap: 6px;
+    gap: 8px;
+    font-size: 14px;
   }
   .social-media-list .svg-icon {
     width: 20px;
     height: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .social-media-list {
+    gap: 10px;
+  }
+  .social-media-list a {
+    gap: 6px;
+    font-size: 12px;
+  }
+  .social-media-list .svg-icon {
+    width: 18px;
+    height: 18px;
   }
 }
 /* Home page text styling */

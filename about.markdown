@@ -25,7 +25,7 @@ I am currently enrolled in IT and studying:
 - CSS
 - Jekyll
 - Git and version control
-- Socialization
+- Linux
 
 ## Interests
 I want to learn about computers and right now, I learn about Operative Systems, then going down to its structure. I'm also interested in open source projects and contributing to the community. I also use Arch BTW (I had to do it).

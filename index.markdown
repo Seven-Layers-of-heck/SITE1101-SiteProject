@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Home
 ---
 
 ![Profile Photo](assets/photo_2025-12-20_03-26-15.jpg){: .profile-photo}
