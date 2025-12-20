@@ -15,11 +15,16 @@
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
+  margin: 0;
+  padding: 0;
 }
 
 .site-header {
   background-color: var(--header-bg);
   border-bottom: 1px solid var(--border-color);
+  margin: 0;
+  padding: 0;
+  border-top: none;
 }
 
 .site-title, .site-nav .page-link {
@@ -292,4 +297,11 @@ blockquote {
 .site-nav .page-link {
   background-color: transparent !important;
   border: none !important;
+}
+
+/* Remove borders from navigation links */
+.site-nav .page-link,
+.site-nav .trigger {
+  border: none !important;
+  box-shadow: none !important;
 }
